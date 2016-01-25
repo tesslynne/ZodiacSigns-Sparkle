@@ -1,0 +1,31 @@
+html,
+body {
+  background-color: #333;
+  background-image: url("../images/space-galaxy.jpg");
+  height: 100%;
+}
+body {
+	color: #FFF;
+}
+
+form {
+	color: #333;
+}
+
+body {
+	text-align: center;
+}
+
+header {
+	padding: 90px;
+}
+
+h1 {
+	font-family: 'Rock Salt', cursive, sans-serif;
+	font-weight: 400;
+	font-size: 46px;
+}
+
+.yoga-pose {
+	padding-top: 50px;
+}

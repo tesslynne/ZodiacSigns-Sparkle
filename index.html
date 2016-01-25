@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Yoga for Your Sign</title>
+
+<!--google font for landing page header-->
+<link href='https://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
+
+<!--core bootstrap-->
+<link href="css/bootstrap.css" rel="stylesheet">
+
+<!--styles-->
+<link href="css/stylesheet.css" rel="stylesheet">
+
+	
+</head>
+
+	<body>
+
+		<header>
+
+			<h1>Yoga for Your Zodiac Sign</h1>
+		
+		<div class="user">
+				<form>
+					<input id="signType" placeholder="What's your zodiac sign?" />
+
+					<button type="button" onclick="getInfo()">clickity</button>
+				</form>
+				
+		</div>
+
+		</header>
+	
+		<div class="iSawTheSign">
+				<h2 id="name"></h2> <!--name of sign-->  
+				<p id="blurb"></p> <!--blurb about sign-->
+
+				<div class="yoga-pose">
+				<p id="yourPose"></p> <!--yoga info for fun-->
+		</div>
+				
+		
+
+
+<!-- Scripts! -->
+<!--core bootstrap min js-->
+<script src="js/bootstrap.min.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<script src="js/main.js"></script>
+
+</body>
+</html>
