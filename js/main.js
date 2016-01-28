@@ -1,11 +1,11 @@
   var zodiacSigns = [{
   		zodiac: "aries",
   		descript: "Your spirit animal is the Ram. Fiery, ambitious, driven and energetic in your path to power.",
-  		yogaPose: "lorem dipsumasana"
+  		yogaPose: "Warrior I"
   	},
 	{	zodiac: "taurus",
   		descript: "Your spirit animal is the Bull. Seeker of worldly pleasures, stubborn to the end, stability and strength and yes, you're always right, of course, yep.",
-  		yogaPose: "lorem dipsumasana"
+  		yogaPose: "Extended Table"
 
   	},
   	{	zodiac: "gemini",
@@ -21,12 +21,12 @@
   		yogaPose: "Supported Bridge Pose. You get the benefits and energy of a backbend, but the support and grounding you need for your wild spirit."
   	},
   	{	zodiac: "virgo",
-  		descript: "Your spirit animal is a discerning Maiden. Efficiency, practicality and organization are the trifecta of your awesomeness, and your sense of humor matches just how flawlessly filtered, organized and efficent your inbox is. Wanna come over to organize my house?",
+  		descript: "Your spirit animal is a discerning Maiden. Efficiency, practicality and organization are the trifecta of your awesomeness, and your sense of humor matches just how flawlessly filtered, organized and efficient your inbox is. Wanna come over to organize my house?",
 		yogaPose: "Humble Warrior."
   	},
   	{	zodiac: "libra",
   		descript: "Your spirit object is the Scales. Supposedly balanced, fair and the 'popular' one of the 12, easily sociable and amicable.",
-  		yogaPose: "Garudasana"
+  		yogaPose: "Eagle Pose"
   	},
   	{	zodiac: "scorpio",
   		descript: "Your spirit animal is the Scorpion. Predictably, it's said your stinger is rough. You feel passionately and deeply, are sensual and moody.",

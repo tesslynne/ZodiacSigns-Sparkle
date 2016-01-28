@@ -10,6 +10,7 @@ body {
 
 form {
 	color: #333;
+	margin-top: 100px;
 }
 
 body {
@@ -26,6 +27,42 @@ h1 {
 	font-size: 46px;
 }
 
+.user, #blurb {
+	font-size: 18px;
+	font-family: Times;
+}
+.well {
+   background-color: rgba(245, 245, 245, 0.3);
+   color: #FFF;
+	padding: 10px;
+    margin: 10px 180px 10px 180px;
+    border: 3px solid;
+    border-radius: 30px;
+}
+#name {
+	font-family: 'Rock Salt', cursive, sans-serif;
+
+}
+.symbols {
+	font-size: 80px;
+	color: #F7F7F6;
+	opacity: .1;
+	
+}
+hr {
+	border-top: 4px double #8c8b8b;
+	text-align: center;
+}
+hr:after{
+	content: '\002665';
+	display: inline-block;
+	position: relative;
+	top: -15px;
+	padding: 0 10px;
+	background: #f0f0f0;
+	color: #8c8b8b;
+	font-size: 18px;
+}
 .yoga-pose {
-	padding-top: 50px;
+	padding-top: 30px;
 }
