@@ -6,7 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Yoga for Your Sign</title>
+
+    <link rel="shortcut icon" href="images/favicon (1).ico" type="image/x-icon" />
+
+	<title>What's Your Sign?</title>
+
+	
 
 <!--google font for landing page header-->
 <link href='https://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
@@ -24,44 +29,49 @@
 
 		<header>
 
-			<h1>Yoga for Your Zodiac Sign</h1>
+			<h1>Zodiac Signs</h1>
 
 				<h3 class="symbols">&#9800;   &#9801;   &#9802;   &#9803;   &#9804;   &#9805;   &#9806;  &#9807;  &#9808;  &#9809;  &#9810;  &#9811;</h3> <!--alt key symbols for zodiac signs for motif at top of page-->
 		
 		<div class="user">
 				<form>
-					<input id="signType" placeholder="What's your zodiac sign?" />
+					<input class="form-control input-lg" type="text" id="signType" placeholder="What's your zodiac sign?" />
 
-					<button type="button" onclick="getInfo()">clickity</button>
+
+					<button type="button" class="btn btn-info" onclick="getInfo()">click</button>
 				</form>
-				
+			
 		</div>
 
 		</header>
+
+			<div id="content">
 	
-		<div class="iSawTheSign">
-				<div class="well well-sm">
-					<h2 id="name"></h2> <!--name of sign
+	
+					<div id="name"></div> <!--name of sign
 					-->
-					<hr>
+					
 
-					<p id="blurb"></p> <!--blurb about sign-->
+					<div id="blurb"></div> <!--blurb about sign-->
 
-					<div class="yoga-pose">
-					<p id="yourPose"></p> <!--yoga info for fun-->
-				</div>
+
+					
 		</div>
 				
 		
 
 
 <!-- Scripts! -->
+
+<script src="js/jquery.min.js"></script>
 <!--core bootstrap min js-->
 <script src="js/bootstrap.min.js"></script>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!--custom JS-->
 
 <script src="js/main.js"></script>
 
 </body>
 </html>
+
+

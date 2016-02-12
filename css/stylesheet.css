@@ -6,14 +6,6 @@ body {
 }
 body {
 	color: #FFF;
-}
-
-form {
-	color: #333;
-	margin-top: 100px;
-}
-
-body {
 	text-align: center;
 }
 
@@ -24,45 +16,50 @@ header {
 h1 {
 	font-family: 'Rock Salt', cursive, sans-serif;
 	font-weight: 400;
-	font-size: 46px;
+	font-size: 45px;
 }
+
+.form-control {
+	opacity: .8;
+	background-color: #F3B8FA;
+	color: #222;
+	border-color: #812D6B;
+	margin-top: 100px;
+	text-align: center;
+	font-size: 20px;
+}
+
+.btn {
+	margin-top: 20px;
+	background-color: #22205A;
+	border-color: #4F2360;
+	opacity: .9;
+	font-style: bold;
+}
+
 
 .user, #blurb {
 	font-size: 18px;
-	font-family: Times;
+	font-family: Times, serif;
+	font-style: bold;
 }
-.well {
+.well-sm {
    background-color: rgba(245, 245, 245, 0.3);
    color: #FFF;
 	padding: 10px;
     margin: 10px 180px 10px 180px;
-    border: 3px solid;
+    border: none;
     border-radius: 30px;
 }
 #name {
 	font-family: 'Rock Salt', cursive, sans-serif;
+	font-size: 30px;
 
 }
 .symbols {
 	font-size: 80px;
 	color: #F7F7F6;
-	opacity: .1;
+	opacity: .2;
 	
 }
-hr {
-	border-top: 4px double #8c8b8b;
-	text-align: center;
-}
-hr:after{
-	content: '\002665';
-	display: inline-block;
-	position: relative;
-	top: -15px;
-	padding: 0 10px;
-	background: #f0f0f0;
-	color: #8c8b8b;
-	font-size: 18px;
-}
-.yoga-pose {
-	padding-top: 30px;
-}
+
